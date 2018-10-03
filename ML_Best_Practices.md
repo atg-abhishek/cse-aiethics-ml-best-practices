@@ -32,7 +32,9 @@ One of the main points here is the workflow of iterating in a Jupyter notebook a
 
 5. To add to the above point, there are some tools and techniques that help to minimize the non-code differences (excluding markdown) in Jupyter cells (e.g. execution counts) but still fall short of being able to provide a clear pathway for code reviews
 
-6. Model management and legacy should be included from day one, take a look at the section 
+6. Model management and legacy should be included from day one, take a look at the section on tooling for a couple of options on that including MLFlow and DVC. 
+
+7. Documentation Generation using tools like Sphinx (http://www.sphinx-doc.org/en/master/) while not possible for Jupyter notebooks is quite easy to implement for Python modules.
 
 ### Checklist before engagement
 
@@ -42,7 +44,7 @@ One of the main points here is the workflow of iterating in a Jupyter notebook a
 
 3. The above point has an emphasis on *document* because they can sometimes get lost in communication as the team composition changes over the lifetime of a project. It is essential that anyone joining the team be able to quickly get up to speed on what the data is, and what the interpretations of it are both from a software engineers and subject matter experts perspective so that there is a single, cohesive source of truth. 
 
-4. Establishing a shared workflow across the customer and internal teams and the data science and engineering teams is crucial to the success of the project, helping to avoid problems such as large merges, conflicts in the code base towards the end of the project. 
+4. Establishing a shared workflow across the customer and internal teams and the data science and engineering teams is crucial to the success of the project, helping to avoid problems such as large merges, conflicts in the code base towards the end of the project. One can borrow on that from the above section on the workflow for data science and machine learning projects.
 
 
 
@@ -80,7 +82,7 @@ TODO
 
 3. Organizing the structure of the Machine Learning and Data Science project - https://github.com/drivendata/cookiecutter-data-science - does a great job of giving a well-defined and consistent structure for organizing the project. In their own words, *"A logical, reasonably standardized, but flexible project structure for doing and sharing data science work."*
 
-4. MLFlow is a great way to capture parameters, artifacts and metrics from a machine learning model without too much effort. Very analogous to the logging module in Python. It provides a nice UI to tabulate the results. https://mlflow.org/ 
+4. MLFlow is a great way to capture parameters, artifacts and metrics from a machine learning model without too much effort. Very analogous to the logging module in Python. It provides a nice UI to tabulate the results. https://mlflow.org/ It also serves as a great tool to track *performance metrics for the models across iterations and strategies*
 
 5. Another great tool for management of machine learning models, source code, intermediate data files, etc. is DVC (https://dvc.org/ )
 
@@ -98,8 +100,22 @@ TODO
 
 ### Data visualization 
 
+1. Plotly Dash 
+
+2. Altair 
+
+3. Seaborn
+
+4. Matplotlib
+
 ### Basic statistical analysis 
 
 ### Other libraries 
 
 ## Post engagement steps for the partner 
+
+1. One of the big things in ensuring the longevity and continuous use of a machine learning project with a customer is to make sure to include: 
+
+    1. For the ML-fluent technical audience on the customer side 
+
+    2. For the non-ML-fluent technical audience on the customer side
