@@ -1,4 +1,4 @@
-# cse-aiethics-ml-best-practices
+# Operational Best Practices for CSE ML & DS
 
 ## General Guidelines 
 
