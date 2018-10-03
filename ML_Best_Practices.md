@@ -118,4 +118,27 @@ TODO
 
     1. For the ML-fluent technical audience on the customer side 
 
-    2. For the non-ML-fluent technical audience on the customer side
+        1. Clear top-down flow to manage and run the project, reorganzing of the code to follow:
+            1. Ingest data 
+            2. Data exploration and visualization 
+            3. Data cleaning 
+            4. Initial feature selection 
+            5. Train loop 
+            6. Validation loop 
+            7. Testing loop 
+            8. Capturing metrics 
+            9. Visualization of the results 
+
+        2. For the non-ML-fluent technical audience on the customer side
+
+            Have a well defined API that allows the technical folks to easily make changes without necessarily having to dig into the ML-related code
+
+            1. Changing input data 
+            2. Changing input features 
+            3. Retraining based on new data 
+            4. Generating reports and visualizations based on reruns using new data 
+
+        3. For the non-technical audience on the customer side 
+
+            1. Demonstration of meeting the business problem
+            2. Exporting graphs on performance of the system 
