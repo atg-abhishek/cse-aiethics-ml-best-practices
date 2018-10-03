@@ -32,7 +32,7 @@ One of the main points here is the workflow of iterating in a Jupyter notebook a
 
 5. To add to the above point, there are some tools and techniques that help to minimize the non-code differences (excluding markdown) in Jupyter cells (e.g. execution counts) but still fall short of being able to provide a clear pathway for code reviews
 
-6. 
+6. Model management and legacy should be included from day one, take a look at the section 
 
 ### Checklist before engagement
 
@@ -80,7 +80,21 @@ TODO
 
 3. Organizing the structure of the Machine Learning and Data Science project - https://github.com/drivendata/cookiecutter-data-science - does a great job of giving a well-defined and consistent structure for organizing the project. In their own words, *"A logical, reasonably standardized, but flexible project structure for doing and sharing data science work."*
 
-4. 
+4. MLFlow is a great way to capture parameters, artifacts and metrics from a machine learning model without too much effort. Very analogous to the logging module in Python. It provides a nice UI to tabulate the results. https://mlflow.org/ 
+
+5. Another great tool for management of machine learning models, source code, intermediate data files, etc. is DVC (https://dvc.org/ )
+
+### Datasets
+
+1. Finding datasets to train / pre-train a model based on the domain is a little easier with this tool: https://toolbox.google.com/datasetsearch 
+
+2. Also, great list of datasets here that are commonly used in benchmarking machine learning models: https://archive.ics.uci.edu/ml/index.php 
+
+### Data cleaning and how to make your own labeled datasets
+
+1. Structuring and cleaning of datasets is essential before plugging them into machine learning models ... 
+
+2. There are a few tools like pandas that make manipulation of datasets easy. When 
 
 ### Data visualization 
 
