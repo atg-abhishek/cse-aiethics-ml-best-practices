@@ -30,7 +30,9 @@ One of the main points here is the workflow of iterating in a Jupyter notebook a
 
 4. Git is unable to resolve effectively the differences in Jupyter notebook versions that are committed into version control and hence should not be used as a mechanism for review of the code
 
-5. To add to the above point, 
+5. To add to the above point, there are some tools and techniques that help to minimize the non-code differences (excluding markdown) in Jupyter cells (e.g. execution counts) but still fall short of being able to provide a clear pathway for code reviews
+
+6. 
 
 ### Checklist before engagement
 
@@ -40,15 +42,45 @@ One of the main points here is the workflow of iterating in a Jupyter notebook a
 
 3. The above point has an emphasis on *document* because they can sometimes get lost in communication as the team composition changes over the lifetime of a project. It is essential that anyone joining the team be able to quickly get up to speed on what the data is, and what the interpretations of it are both from a software engineers and subject matter experts perspective so that there is a single, cohesive source of truth. 
 
+4. Establishing a shared workflow across the customer and internal teams and the data science and engineering teams is crucial to the success of the project, helping to avoid problems such as large merges, conflicts in the code base towards the end of the project. 
+
+
+
 ## Hierarchy of techniques to attempt based on domain 
 
-Often, deep learning 
+Often, deep learning will be the first thing proposed to tackle a particular problem, especially because of its popularity, but more seasoned data science and machine learning engineers will realize that it is not necessary given the size of the dataset and as an intro technique. There are quite a few basic techniques that can be tried at the beginning to get a headstart with *grokking* the data and ultimately, more effectively guide the machine learning experimentation pathway. 
+
+The following sections will serve as a general outline for what can be done from a pathway perspective in trying out different modeling techniques.
 
 ### Image processing 
 
+TODO
+
 ### Natural Language Processing 
 
+TODO
+
+### Natural Language Understanding
+
+TODO
+
+### Basic Prediction Tasks
+
+TODO
+
+### Time Series modeling
+
+TODO
+
 ## Tools 
+
+1. Pandas Profiling (https://github.com/pandas-profiling/pandas-profiling) does a great job of generating a HTML (or inline Jupyter) report from a pandas dataframe outlining different descriptive statistics about the data and drawing out a Spearman/Pearson correlation matrix allowing for quick insights into data 
+
+2. When training machine learning models, it can be a slow process with sometimes unimaginative visualizations of the progress (often based on TQDM), you can spice that up by using Bunny (https://github.com/mcpherrinm/bunny) PRO TIP: you can customize the animal to your liking by editing the source code! 
+
+3. Organizing the structure of the Machine Learning and Data Science project - https://github.com/drivendata/cookiecutter-data-science - does a great job of giving a well-defined and consistent structure for organizing the project. In their own words, *"A logical, reasonably standardized, but flexible project structure for doing and sharing data science work."*
+
+4. 
 
 ### Data visualization 
 
