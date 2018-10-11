@@ -54,6 +54,16 @@ Often, deep learning will be the first thing proposed to tackle a particular pro
 
 The following sections will serve as a general outline for what can be done from a pathway perspective in trying out different modeling techniques.
 
+
+### The General Pipeline for machine learning (data science)
+
+* Initially analysis (ask the right domain questions, ask for success criteria, ask for data dictionaries, ask for domain experts)
+	* exploratory analysis (feedback loop here - we don't want to trust the data we are handed and want to make sure it conforms to what the domain experts believe) && data visualization
+* feature engineering && simple modeling work && data visualization
+* optimization and more questions for the client
+* deep learning
+
+
 ### Image processing 
 
 * [OpenCV](https://opencv.org/)
@@ -80,11 +90,33 @@ DarkNet: (One or the other may not install on your system, so a few are listed)
 
 ### Natural Language Processing 
 
-TODO
+
+Core NLP Libraries
+
+
+* [NLTK](https://www.nltk.org/)
+* [Spacy](https://spacy.io/)
+* [Scikit-Learn](http://scikit-learn.org/stable/) - not fully NLP but useful for many NLP tasks
+* [NLP examples](https://github.com/susanli2016/NLP-with-Python)
+* 
+
+Good for word embeddings:
+
+
+* [Gensim](https://radimrehurek.com/gensim/)
+
+
+MultiLingual Support:
+
+
+* [Polyglot](https://github.com/aboSamoor/polyglot)
+
 
 ### Natural Language Understanding
+ 
 
-TODO
+* [Rasa](https://rasa.com/docs/nlu/)
+
 
 ### Basic Prediction Tasks
 
