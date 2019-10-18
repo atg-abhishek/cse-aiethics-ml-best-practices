@@ -54,17 +54,69 @@ Often, deep learning will be the first thing proposed to tackle a particular pro
 
 The following sections will serve as a general outline for what can be done from a pathway perspective in trying out different modeling techniques.
 
+
+### The General Pipeline for machine learning (data science)
+
+* Initially analysis (ask the right domain questions, ask for success criteria, ask for data dictionaries, ask for domain experts)
+	* exploratory analysis (feedback loop here - we don't want to trust the data we are handed and want to make sure it conforms to what the domain experts believe) && data visualization
+* feature engineering && simple modeling work && data visualization
+* optimization and more questions for the client
+* deep learning
+
+
 ### Image processing 
 
-TODO
+* [OpenCV](https://opencv.org/)
+	* [tutorials](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html)
+	* [PyImageSearch Tutorial](https://www.pyimagesearch.com/2018/07/19/opencv-tutorial-a-guide-to-learn-opencv/)
+	* [OpenCV Tutorials](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
+* [PyImageSearch](https://www.pyimagesearch.com/)
+* [Scikit-Image](https://scikit-image.org/)
+* [Pillow](https://python-pillow.org/)
+* [SimpleCV](http://simplecv.org/)
+
+Overall the basic image processing space is woefully underwhelming.  That said, there is a lot of interesting work in the deep learning context:
+
+* [PyImage Search Basics](https://www.pyimagesearch.com/2017/12/11/image-classification-with-keras-and-deep-learning/)
+* [ImageAI example](https://www.analyticsvidhya.com/blog/2018/06/understanding-building-object-detection-model-python/)
+* [ImageAI](https://github.com/OlafenwaMoses/ImageAI)
+* [YOLOv3 Example](https://github.com/Basasuya/basasuya-yolo3)
+
+
+DarkNet: (One or the other may not install on your system, so a few are listed)
+* [DarkNet Wrapper for Python](https://github.com/madhawav/YOLO3-4-Py)
+* [pip DarkNet package](https://pypi.org/project/darknetpy/)
+
 
 ### Natural Language Processing 
 
-TODO
+
+Core NLP Libraries
+
+
+* [NLTK](https://www.nltk.org/)
+* [Spacy](https://spacy.io/)
+* [Scikit-Learn](http://scikit-learn.org/stable/) - not fully NLP but useful for many NLP tasks
+* [NLP examples](https://github.com/susanli2016/NLP-with-Python)
+* 
+
+Good for word embeddings:
+
+
+* [Gensim](https://radimrehurek.com/gensim/)
+
+
+MultiLingual Support:
+
+
+* [Polyglot](https://github.com/aboSamoor/polyglot)
+
 
 ### Natural Language Understanding
+ 
 
-TODO
+* [Rasa](https://rasa.com/docs/nlu/)
+
 
 ### Basic Prediction Tasks
 
